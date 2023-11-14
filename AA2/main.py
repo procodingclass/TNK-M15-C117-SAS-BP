@@ -19,7 +19,7 @@ class EmailSenderApp():
         for email_id in recipients_email:
             try:
                 # Fix the host and port number to setup SMTP server
-                smtp_server = smtplib.SMTP("rmtp.ymail.com", 587)
+                smtp_server = smtplib.SMTP("rmtp.ymail.com", 000)
                 # Start the TLS service
 
                 # Login with creadentials
